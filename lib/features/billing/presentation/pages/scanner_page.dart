@@ -1,17 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <!-- Camera Permission -->
-    <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="false" />
-
-    <application
-        android:label="mobile_pos_billing"
-        android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
-          import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 import 'package:mobile_scanner/mobile_scanner.dart';
 import 'package:go_router/go_router.dart';
 import 'package:vibration/vibration.dart';
@@ -139,7 +126,3 @@ class _ScannerPageState extends State<ScannerPage> {
     );
   }
 }
-
-    </application>
-
-</manifest>
